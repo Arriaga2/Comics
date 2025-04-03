@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 <style>
     body {
-        color: white;
+        color: black;
         background-color: #222;
     }
 

@@ -90,6 +90,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('rutacarrito') }}"><i class="fas fa-shopping-cart"></i> Mi Carrito</a>
                         </li>
+                        
                     </ul>
                 </div>
             </div>

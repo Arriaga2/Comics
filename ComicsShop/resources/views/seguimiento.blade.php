@@ -1,5 +1,5 @@
 @extends('layouts.plantillaUsu')
-@section('Titulo', 'Inicio')
+@section('Titulo', 'Segumiento')
 
 @section('css-inicio')
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
