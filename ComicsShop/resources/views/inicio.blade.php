@@ -147,8 +147,4 @@
         <input type="email" placeholder="Ingresa tu correo">
         <button>Suscribirme</button>
     </section>
-
-    <!-- Botón para volver -->
-    <li><a href="{{route('rutainicio')}}"><i class="fas fa-home"></i> Volver a Inicio</a></li>
-
 @endsection

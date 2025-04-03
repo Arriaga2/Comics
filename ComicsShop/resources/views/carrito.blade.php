@@ -194,7 +194,7 @@
 
     <p class="total">Total a Pagar: <strong>$1100 MXN</strong></p>
 
-    <a href="pago.php" class="btn-pagar">Proceder al Pago</a>
+    <a href="pago.blade.php" class="btn-pagar">Proceder al Pago</a>
 
 </div>
 

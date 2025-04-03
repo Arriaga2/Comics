@@ -20,25 +20,42 @@
 
     {{-- Estilos para la navbar --}}
     <style>
-        .navbar-brand {
-            font-size: 28px;
-            color: #ff8a00 !important;
-            transition: transform 0.2s ease-in-out;
-        }
+         .navbar {
+        background: linear-gradient(90deg, #ff8a00, #e52e71);
+        padding: 15px 0;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-        .navbar-brand:hover {
-            transform: scale(1.05);
-            color: #e52e71 !important;
-        }
+    .navbar-brand {
+        font-size: 320px;
+        font-weight: bold;
+        color: #fff !important;
+        transition: transform 0.2s ease-in-out;
+    }
 
-        .nav-link {
-            color: #000 !important;
-            transition: color 0.2s ease-in-out;
-        }
+    .navbar-brand:hover {
+        transform: scale(1.08);
+    }
 
-        .nav-link:hover {
-            color: #e52e71 !important;
-        }
+    .nav-link {
+        font-size: 18px;
+        color: #fff !important;
+        margin: 0 10px;
+        transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    }
+
+    .nav-link:hover {
+        color: #ffde59 !important;
+        transform: scale(1.05);
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
     </style>
 </head>
 <body>
